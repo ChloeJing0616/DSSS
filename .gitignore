@@ -1,0 +1,11 @@
+cache/
+dataset/
+
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.zip
+
+.DS_Store
