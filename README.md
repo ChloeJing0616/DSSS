@@ -5,14 +5,15 @@
 This project investigates which crime type best represents urban crime risk in London using spatial features and machine learning models.
 
 ## Repository Structure
-submission/
-├── lsoa_crime_rates.csv        – crime rates per LSOA
-├── population.csv              – population data
-├── final_dataset.csv           – processed dataset with urban features
-├── imd_lsoa.csv                – LSOA-level Index of Multiple Deprivation (IMD 2019)
-├── dataset_fe.csv              – feature-engineered dataset for modelling
-├── London_boundaries/          – spatial boundary data
-Template_submission_CASA0006.ipynb  – main analysis notebook (EDA, modelling, SHAP)
+- `submission/` - data folder
+  - `lsoa_crime_rates.csv` - crime rates per LSOA
+  - `population.csv` - population data
+  - `final_dataset.csv` - processed dataset with urban features
+  - `imd_lsoa.csv` - LSOA-level Index of Multiple Deprivation (IMD 2019)
+  - `dataset_fe.csv` - feature-engineered dataset for modelling
+  - `London_boundaries/` - spatial boundary data
+- `Template_submission_CASA0006.ipynb` - main analysis notebook (EDA, modelling, SHAP)
+
 
 ## How to Run
 
