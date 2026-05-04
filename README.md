@@ -1,24 +1,30 @@
-# DSSS Coursework – Crime Risk Modelling
+# DSSS Assessment – CASA0006
 
 ## Overview
+
 This project investigates which crime type best represents urban crime risk in London using spatial features and machine learning models.
 
-## Files
-- `notebook.ipynb` – main analysis (EDA, modelling, SHAP)
-- `dataset_fe.csv` – processed dataset used for modelling
-- `crime_rates.csv` – crime rates per LSOA
-- `London_boundaries/` – spatial boundary data
+## Repository Structure
+submission/
+├── lsoa_crime_rates.csv        – crime rates per LSOA
+├── population.csv              – population data
+├── final_dataset.csv           – processed dataset with urban features
+├── imd_lsoa.csv                – LSOA-level Index of Multiple Deprivation (IMD 2019)
+├── dataset_fe.csv              – feature-engineered dataset for modelling
+├── London_boundaries/          – spatial boundary data
+Template_submission_CASA0006.ipynb  – main analysis notebook (EDA, modelling, SHAP)
 
-## Data
-Raw data were obtained from:
+## How to Run
+
+Open and run `Template_submission_CASA0006.ipynb`. Data is loaded automatically from GitHub raw URLs — no local setup needed.
+
+## Data Sources
+
 - London crime data
 - ONS datasets (population, IMD)
-
-Preprocessing steps (aggregation, cleaning, merging) were conducted prior to modelling.  
-Due to file size constraints, only the final dataset is included.
-
-## How to run
-Open and run `notebook.ipynb` to reproduce results.
+- Urban features: population exposure, road network, POI density
 
 ## Notes
-All results in the report are reproducible from the provided dataset.
+
+All results in the report are reproducible from the provided datasets.
+EOF
